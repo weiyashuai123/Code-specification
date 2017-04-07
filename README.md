@@ -32,6 +32,46 @@
 •item_grid_功能，为GridView的item命名格式</br>
 •header_list_功能，为ListView的HeaderView命名格式</br>
 •footer_list_功能，为ListView的FooterView命名格式</br>
+* 控件引用字符串Strings的命名</br>
+类型_功能，如：</br>
+•页面标题，命名格式为：title_页面</br>
+•按钮文字，命名格式为：btn_按钮事件</br>
+•标签文字，命名格式为：label_标签文字</br>
+•选项卡文字，命名格式为：tab_选项卡文字</br>
+•消息框文字，命名格式为：toast_消息</br>
+•编辑框的提示文字，命名格式为：hint_提示信息</br>
+•图片的描述文字，命名格式为：desc_图片文字</br>
+•对话框的文字，命名格式为：dialog_文字</br>
+•menu的item文字，命名格式为：action_文字</br>
+* colors的命名</br>
+前缀_控件(范围)，控件和范围选一个。</br>
+•背景颜色，添加bg前缀</br>
+•文本颜色，添加text前缀</br>
+•分割线颜色，添加div前缀</br>
+•区分状态时，默认状态的颜色，添加normal后缀</br>
+•区分状态时，按下时的颜色，添加pressed后缀</br>
+•区分状态时，选中时的颜色，添加selected后缀</br>
+•区分状态时，不可用时的颜色，添加disable后缀</br>
+* drawable的命名</br>
+前缀_控件(范围)</br>
+•图标类，添加ic前缀</br>
+•背景类，添加bg前缀</br>
+•分隔类，添加div前缀</br>
+•默认类，添加def前缀</br>
+•区分状态时，默认状态，添加normal后缀</br>
+•区分状态时，按下时的状态，添加pressed后缀</br>
+•区分状态时，选中时的状态，添加selected后缀</br>
+•区分状态时，不可用时的状态，添加disable后缀</br>
+•多种状态的，添加selector后缀（一般为ListView的selector或按钮的selector）</br>
+* 动画文件命名</br>
+动画类型_动画方向,如：</br>
+•fade_in，淡入</br>
+•fade_out，淡出</br>
+•push_down_in，从下方推入</br>
+•push_down_out，从下方推出</br>
+•slide_in_from_top，从头部滑动进入</br>
+•zoom_enter，变形进入</br>
+•shrink_to_middle，中间缩小</br>
 
 * Android基本控件变量命名：</br>
 <table class="table table-bordered table-striped table-condensed">
