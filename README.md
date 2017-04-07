@@ -13,6 +13,56 @@
 •文字大小的单位统一用sp，控件大小的单位统一用dp。</br>
 •应用中的字符串统一在strings.xml中定义，然后在代码和布局文件中引用。</br>
 •颜色值统一在colors.xml中定义，然后在代码和布局文件中引用。（不要用系统的颜色）</br>
+* 注释规范：</br>
+. 文件头注释
+
+文件顶部统一添加版权声明，声明的格式如下：
+
+/**
+ * Copyright (c) 2016.icecream作者 Inc. All rights reserved.
+ */
+类和接口注释
+
+类和接口统一添加javadoc注释，格式如下：
+
+/**
+ * 类或接口的描述信息
+ *
+ * @author ${作者}
+ * @date ${时间}
+ */
+方法注释</br>
+
+下面几种方法，都必须添加javadoc注释，说明该方法的用途和参数说明，以及返回值的说明。</br>
+接口中定义的所有方法</br>
+抽象类中自定义的抽象方法</br>
+抽象父类的自定义公用方法</br>
+工具类的公用方法</br>
+/**
+ * 登录
+ *
+ * @param loginName 登录名
+ * @param password  密码
+ * @param listener  回调监听器
+ */
+public void login(String loginName, String password, ActionCallbackListener<Void> listener);
+变量和常量注释
+
+下面几种情况下的常量和变量，都要添加注释说明，优先采用右侧//来注释，若注释说明太长则在上方添加注释。
+
+接口中定义的所有常量
+公有类的公有常量
+枚举类定义的所有枚举常量
+实体类的所有属性变量
+
+public static final int TYPE_CASH = 1; // 现金券
+public static final int TYPE_DEBIT = 2; // 抵扣券
+public static final int TYPE_DISCOUNT = 3; // 折扣券
+
+private int id;                // 券id
+private String name;           // 券名称
+private String introduce;      // 券简介</br>
+
 * 包命名：</br>
 •基类、配置类、Application放在.base包下</br>
 •Activity类统一放在.ui包下</br>
