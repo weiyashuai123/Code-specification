@@ -246,13 +246,10 @@ private String introduce;      // 券简介</br>
         <td>TabWidget</td>
         <td>widget_+描述</td>
     </tr>
-    <tr>
-        <td></td>
-    </tr>
 </table>
 
 * 程序默认图标 </br>
 ![40](https://github.com/weiyashuai123/Code-specification/blob/master/icon40.png "40x40")
-![80](https://github.com/weiyashuai123/Code-specification/blog/master/icon80.png "80x80")
-![120](https://github.com/weiyashuai123/Code-specification/blog/master/icon120.png "120x120")
-![240](https://github.com/weiyashuai123/Code-specification/blog/master/icon240.png "240x240")
+![80](https://github.com/weiyashuai123/Code-specification/blob/master/icon80.png "80x80")
+![120](https://github.com/weiyashuai123/Code-specification/blob/master/icon120.png "120x120")
+![240](https://github.com/weiyashuai123/Code-specification/blob/master/icon240.png "240x240")
