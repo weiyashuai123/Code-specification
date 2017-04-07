@@ -1,5 +1,6 @@
 # Android自定开发规范</br>
-* 基本规范：</br>
+## 基本规范：</br>
+* 方法通用</br>
 •在允许函数重载的语言中，所有重载都应该执行相似的函数。</br>
 •在变量名中使用互补对，如min/max、begin/end和open/close。</br>
 •初始化方法，命名以init开头，例：initView</br>
@@ -13,16 +14,15 @@
 •文字大小的单位统一用sp，控件大小的单位统一用dp。</br>
 •应用中的字符串统一在strings.xml中定义，然后在代码和布局文件中引用。</br>
 •颜色值统一在colors.xml中定义，然后在代码和布局文件中引用。（不要用系统的颜色）</br>
-* 注释规范：</br>
-文件头注释</br>
-
+## 注释规范：</br>
+* 文件头注释</br>
 文件顶部统一添加版权声明，声明的格式如下：</br>
 
 /**
  * Copyright (c) 2016.icecream作者 Inc. All rights reserved.
- */</br>
- 类和接口注释</br>
-
+ */
+ 
+* 类和接口注释</br>
 类和接口统一添加javadoc注释，格式如下：</br>
 
 /**
@@ -31,13 +31,13 @@
  * @author ${作者}
  * @date ${时间}
  */</br>
- 方法注释</br>
-
+ 
+ * 方法注释</br>
 下面几种方法，都必须添加javadoc注释，说明该方法的用途和参数说明，以及返回值的说明。</br>
-接口中定义的所有方法</br>
-抽象类中自定义的抽象方法</br>
-抽象父类的自定义公用方法</br>
-工具类的公用方法</br>
+•接口中定义的所有方法</br>
+•抽象类中自定义的抽象方法</br>
+•抽象父类的自定义公用方法</br>
+•工具类的公用方法</br>
 /**
  * 登录</br>
  *
@@ -45,15 +45,16 @@
  * @param password  密码</br>
  * @param listener  回调监听器</br>
  */
-public void login(String loginName, String password, ActionCallbackListener<Void> listener);</br>
-变量和常量注释</br>
+ 
+public void login(String loginName, String password, ActionCallbackListener<Void> listener);
+</br>
+* 变量和常量注释</br>
 
 下面几种情况下的常量和变量，都要添加注释说明，优先采用右侧//来注释，若注释说明太长则在上方添加注释。</br>
-
-接口中定义的所有常量</br>
-公有类的公有常量</br>
-枚举类定义的所有枚举常量</br>
-实体类的所有属性变量</br>
+•接口中定义的所有常量</br>
+•公有类的公有常量</br>
+•枚举类定义的所有枚举常量</br>
+•实体类的所有属性变量</br>
 
 public static final int TYPE_CASH = 1; // 现金券</br>
 public static final int TYPE_DEBIT = 2; // 抵扣券</br>
@@ -62,7 +63,7 @@ public static final int TYPE_DISCOUNT = 3; // 折扣券</br>
 private int id;                // 券id</br>
 private String name;           // 券名称</br>
 private String introduce;      // 券简介</br>
-
+## 命名规范</br>
 * 包命名：</br>
 •基类、配置类、Application放在.base包下</br>
 •Activity类统一放在.ui包下</br>
@@ -249,3 +250,8 @@ private String introduce;      // 券简介</br>
         <td></td>
     </tr>
 </table>
+## 程序默认图标
+![40](https://github.com/weiyashuai123/Code-specification/edit/master/icon40.png "40x40")
+![80](https://github.com/weiyashuai123/Code-specification/edit/master/icon80.png "80x80")
+![120](https://github.com/weiyashuai123/Code-specification/edit/master/icon120.png "120x120")
+![240](https://github.com/weiyashuai123/Code-specification/edit/master/icon240.png "240x240")
