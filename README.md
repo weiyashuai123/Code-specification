@@ -19,17 +19,17 @@
 文件顶部统一添加版权声明，声明的格式如下：</br>
 
 /**
- * Copyright (c) 2016.icecream作者 Inc. All rights reserved.
+ Copyright (c) 2016.作者 Inc. All rights reserved.</br>
  */
  
 * 类和接口注释</br>
 类和接口统一添加javadoc注释，格式如下：</br>
 
 /**
- * 类或接口的描述信息
- *
- * @author ${作者}
- * @date ${时间}
+
+ 类或接口的描述信息</br>
+ @author ${作者}</br>
+ @date ${时间}</br>
  */</br>
  
  * 方法注释</br>
@@ -250,7 +250,7 @@ private String introduce;      // 券简介</br>
         <td></td>
     </tr>
 </table>
-## 程序默认图标
+## 程序默认图标 </br>
 ![40](https://github.com/weiyashuai123/Code-specification/edit/master/icon40.png "40x40")
 ![80](https://github.com/weiyashuai123/Code-specification/edit/master/icon80.png "80x80")
 ![120](https://github.com/weiyashuai123/Code-specification/edit/master/icon120.png "120x120")
