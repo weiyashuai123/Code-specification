@@ -13,6 +13,16 @@
 •文字大小的单位统一用sp，控件大小的单位统一用dp。</br>
 •应用中的字符串统一在strings.xml中定义，然后在代码和布局文件中引用。</br>
 •颜色值统一在colors.xml中定义，然后在代码和布局文件中引用。（不要用系统的颜色）</br>
+* 包命名：</br>
+•基类、配置类、Application放在.base包下</br>
+•Activity类统一放在.ui包下</br>
+•fragment类统一放在.ui.fragment包下</br>
+•service类统一放在.service包下</br>
+•adapter类统一放在.adapter包下</br>
+•工具类及其他统一放在.util包下</br>
+•接口实现类统一放在.implement包下</br>
+•封装的数据对象统一放在.bean包下</br>
+•自定义的控件统一放在.view包下</br>
 
 * Android基本控件变量命名：</br>
 <table class="table table-bordered table-striped table-condensed">
