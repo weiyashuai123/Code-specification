@@ -253,3 +253,11 @@ private String introduce;      // 券简介</br>
 ![80](https://github.com/weiyashuai123/Code-specification/blob/master/icon80.png "80x80")
 ![120](https://github.com/weiyashuai123/Code-specification/blob/master/icon120.png "120x120")
 ![240](https://github.com/weiyashuai123/Code-specification/blob/master/icon240.png "240x240")
+
+
+Create At：2016年9月20日             
+Update At：2017年4月7日              
+Author：魏亚帅                       
+E-mail：subcakewei@outlook.com       
+GitHub：github.com/weiyashuai123      
+
