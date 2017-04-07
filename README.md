@@ -1,5 +1,20 @@
-# Code-specification
-魏亚帅的代码规范</br>
+# Android自定开发规范</br>
+* 基本规范：</br>
+•在允许函数重载的语言中，所有重载都应该执行相似的函数。</br>
+•在变量名中使用互补对，如min/max、begin/end和open/close。</br>
+•初始化方法，命名以init开头，例：initView</br>
+•按钮点击方法，命名以to开头，例：toLogin</br>
+•设置方法，命名以set开头，例：setData</br>
+•具有返回值的获取方法，命名以get开头，例：getData</br>
+•通过异步加载数据的方法，命名以load开头，例：loadData</br>
+•布尔变量名应该含有is或has，或具有逻辑意义的单词，如：fileIsFound，hasSDcard</br>
+•常量命名全部为大写单词，单词之间用下划线分开.如：public final static int PAGE_SIZE = 20;</br>
+•在eclipse中使用Ctrl+shift+F格式化代码。</br>
+•文字大小的单位统一用sp，控件大小的单位统一用dp。</br>
+•应用中的字符串统一在strings.xml中定义，然后在代码和布局文件中引用。</br>
+•颜色值统一在colors.xml中定义，然后在代码和布局文件中引用。（不要用系统的颜色）</br>
+
+* Android基本控件变量命名：</br>
 <table class="table table-bordered table-striped table-condensed">
     <tr>
         <td>TextView</td>
