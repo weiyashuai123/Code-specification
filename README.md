@@ -23,9 +23,17 @@
 •接口实现类统一放在.implement包下</br>
 •封装的数据对象统一放在.bean包下</br>
 •自定义的控件统一放在.view包下</br>
+* 布局文件layout命名</br>
+统一以 组件类型_功能 的格式命名，如：</br>
+•activity_功能，为Activity的命名格式</br>
+•fragment_功能，为Fragment的命名格式</br>
+•dialog_功能，为Dialog的命名格式</br>
+•item_list_功能，为ListView的item命名格式</br>
+•item_grid_功能，为GridView的item命名格式</br>
+•header_list_功能，为ListView的HeaderView命名格式</br>
+•footer_list_功能，为ListView的FooterView命名格式</br>
 
 * Android基本控件变量命名：</br>
-</t>
 <table class="table table-bordered table-striped table-condensed">
     <tr>
         <td>TextView</td>
