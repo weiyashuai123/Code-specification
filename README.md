@@ -25,6 +25,7 @@
 •自定义的控件统一放在.view包下</br>
 
 * Android基本控件变量命名：</br>
+</t>
 <table class="table table-bordered table-striped table-condensed">
     <tr>
         <td>TextView</td>
