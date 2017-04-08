@@ -18,9 +18,9 @@
 * 文件头注释</br>
 文件顶部统一添加版权声明，声明的格式如下：</br>
 
-/**
- Copyright (c) 2016.作者 Inc. All rights reserved.</br>
- */
+`/**
+ * Copyright (c) 2016.作者 Inc. All rights reserved.</br>
+ */`
  
 * 类和接口注释</br>
 类和接口统一添加javadoc注释，格式如下：</br>
