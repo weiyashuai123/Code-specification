@@ -11,6 +11,7 @@
 •布尔变量名应该含有is或has，或具有逻辑意义的单词，如：fileIsFound，hasSDcard</br>
 •常量命名全部为大写单词，单词之间用下划线分开.如：public final static int PAGE_SIZE = 20;</br>
 •在eclipse中使用Ctrl+shift+F格式化代码。</br>
+•在Android studio 中使用Ctrl+shift+L格式化代码。</br>
 •文字大小的单位统一用sp，控件大小的单位统一用dp。</br>
 •应用中的字符串统一在strings.xml中定义，然后在代码和布局文件中引用。</br>
 •颜色值统一在colors.xml中定义，然后在代码和布局文件中引用。（不要用系统的颜色）</br>
@@ -256,7 +257,7 @@ private String introduce;      // 券简介</br>
 
 
 Create At：2016年9月20日             
-Update At：2017年4月7日              
+Update At：2017年4月8日              
 Author：魏亚帅                       
 E-mail：subcakewei@outlook.com       
 GitHub：github.com/weiyashuai123      
