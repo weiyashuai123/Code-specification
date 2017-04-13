@@ -28,11 +28,11 @@
   类和接口统一添加javadoc注释，格式如下：</br>
 
 
-      /**
+      `/**
         *  类或接口的描述信息
         *  @author ${作者}
         *  @date ${时间}.
-       */
+        */`
 
  * 方法注释</br>
   下面几种方法，都必须添加javadoc注释，说明该方法的用途和参数说明，以及返回值的说明。</br>
@@ -43,12 +43,12 @@
 
 
 
-         /**
-          *  登录
-          *  @param loginName 登录名
-          *  @param password  密码
-          *  @param listener  回调监听器
-          */
+         `/**
+           *  登录
+           *  @param loginName 登录名
+           *  @param password  密码
+           *  @param listener  回调监听器
+           */`
  
  
        public void login(String loginName, String password, ActionCallbackListener<Void> listener);
