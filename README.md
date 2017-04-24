@@ -264,6 +264,7 @@
 </table>
 
 * 程序默认图标 </br>
+  若未指定程序图标，均采用默认图标，各规格图标如下：</br>
 ![40](https://github.com/weiyashuai123/Code-specification/blob/master/icon40.png "40x40")
 ![80](https://github.com/weiyashuai123/Code-specification/blob/master/icon80.png "80x80")
 ![120](https://github.com/weiyashuai123/Code-specification/blob/master/icon120.png "120x120")
