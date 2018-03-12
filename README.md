@@ -1,5 +1,5 @@
 # Android自定开发规范</br>
-** 以下规范已弃用，最新规范请参照![阿里巴巴Android开发手册]
+** 以下规范已弃用，最新规范请参照 ![阿里巴巴Android开发手册](https://github.com/weiyashuai123/Code-specification/blob/master/android%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C.pdf)
 ## 基本规范：</br>
 * 方法通用</br>
 •在允许函数重载的语言中，所有重载都应该执行相似的函数。</br>
